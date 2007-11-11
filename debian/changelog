@@ -1,3 +1,10 @@
+libxsp (2:1.0.0-4) unstable; urgency=low
+
+  * Change section to 'gui'.
+  * Add cross build-depends.
+
+ -- Alexander Shishkin <virtuoso@slind.org>  Sun, 11 Nov 2007 22:35:38 +0300
+
 libxsp (2:1.0.0-3) unstable; urgency=low
 
   * Slind build
