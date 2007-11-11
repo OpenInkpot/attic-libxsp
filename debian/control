@@ -1,0 +1,28 @@
+Source: libxsp
+Section: x11
+Priority: optional
+Maintainer: Oleg Romashin <romaxa@gmail.com>
+Build-Depends: debhelper (>= 4.0.0), libx11-dev (>= 1:0.99.2-1), libxext-dev (>= 1:0.99.1-1), x11proto-xsp-dev, x11proto-xext-dev, x11proto-fixes-dev, pkg-config, quilt, autoconf2.13, automake1.7, libtool
+Standards-Version: 3.6.1.0
+
+Package: libxsp0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: X S P lib
+ Xomap server specific extension runtime library
+
+Package: libxsp0-dbg
+Section: libdevel
+Priority: extra
+Architecture: any
+Depends: libxsp0 (= ${Source-Version}), ${misc:Depends}
+Description: X S P lib - debug files
+ Xomap server specific extension runtime debug library
+
+Package: libxsp-dev
+Section: libdevel
+Architecture: any
+Depends: x11proto-xsp-dev, libxsp0 (= ${Source-Version}), libx11-dev
+Description: X S P lib - development files
+ Xomap server specific extension, development headers

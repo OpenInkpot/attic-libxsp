@@ -1,0 +1,7 @@
+usr/lib/libXsp.so
+usr/lib/libXsp.la
+usr/lib/libXsp.a
+usr/lib/pkgconfig
+usr/lib/pkgconfig/xsp.pc
+usr/include/X11/*
+
