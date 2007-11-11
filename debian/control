@@ -3,7 +3,7 @@ Section: gui
 Priority: optional
 Maintainer: Oleg Romashin <romaxa@gmail.com>
 Build-Depends: debhelper (>= 4.0.0), libx11-dev (>= 1:0.99.2-1), libxext-dev (>= 1:0.99.1-1), x11proto-xsp-dev, x11proto-xext-dev, x11proto-fixes-dev, pkg-config, quilt, autoconf2.13, automake1.7, libtool
-XCS-Cross-Build-Depends: libx11-dev, x11proto-xext-dev
+XCS-Cross-Build-Depends: libx11-dev, x11proto-xext-dev, libxext-dev
 XCS-Cross-Host-Build-Depends: debhelper, pkg-config, quilt, autoconf2.13, automake1.7, libtool
 Standards-Version: 3.6.1.0
 
