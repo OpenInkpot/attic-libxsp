@@ -8,14 +8,14 @@ XCS-Cross-Host-Build-Depends: debhelper, pkg-config, quilt, autoconf2.13, automa
 Standards-Version: 3.6.1.0
 
 Package: libxsp0
-Section: libs
+Section: gui
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: X S P lib
  Xomap server specific extension runtime library
 
 Package: libxsp0-dbg
-Section: libdevel
+Section: debug
 Priority: extra
 Architecture: any
 Depends: libxsp0 (= ${Source-Version}), ${misc:Depends}
@@ -23,7 +23,7 @@ Description: X S P lib - debug files
  Xomap server specific extension runtime debug library
 
 Package: libxsp-dev
-Section: libdevel
+Section: host-tools
 Architecture: any
 Depends: x11proto-xsp-dev, libxsp0 (= ${Source-Version}), libx11-dev
 Description: X S P lib - development files
