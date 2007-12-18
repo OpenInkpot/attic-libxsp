@@ -1,3 +1,9 @@
+libxsp (2:1.0.0-5) unstable; urgency=low
+
+  * Move -dev package to 'libdevel' section.
+
+ -- Alexander Shishkin <virtuoso@slind.org>  Tue, 18 Dec 2007 12:56:51 +0300
+
 libxsp (2:1.0.0-4) unstable; urgency=low
 
   * Change section to 'gui'.

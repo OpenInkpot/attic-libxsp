@@ -23,7 +23,7 @@ Description: X S P lib - debug files
  Xomap server specific extension runtime debug library
 
 Package: libxsp-dev
-Section: host-tools
+Section: libdevel
 Architecture: any
 Depends: x11proto-xsp-dev, libxsp0 (= ${Source-Version}), libx11-dev
 Description: X S P lib - development files
