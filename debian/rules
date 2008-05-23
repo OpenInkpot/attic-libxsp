@@ -36,10 +36,9 @@ build: patch build-stamp
 build-stamp:
 	dh_testdir
 
-	sh ./autogen.sh
-	./configure --prefix=/usr --mandir=\$${prefix}/share/man --disable-malloc0returnsnull \
-	             --infodir=\$${prefix}/share/info $(confflags) \
-	             CFLAGS="$(CFLAGS)" 
+	sh ./autogen.sh --prefix=/usr --mandir=\$${prefix}/share/man \
+		 --disable-malloc0returnsnull --infodir=\$${prefix}/share/info \
+		 $(confflags) CFLAGS="$(CFLAGS)" 
 	$(MAKE)
 
 	touch build-stamp
